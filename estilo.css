@@ -125,7 +125,8 @@ body main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    width: 60%;
+    min-height: 700px;
 }
 body main  .imagens {
     display: flex;
