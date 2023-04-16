@@ -125,13 +125,13 @@ body main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    
 }
 body main  .imagens {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+   
     font-size: 20px;
     
     text-align: left;
