@@ -8,12 +8,64 @@ html{
 }
 body header .titulodoido{
     margin-top: 60px;
-   
+    font-family: 'Bruno Ace, cursive';
     font-size: 50px;
     display: flex;
-   
+   justify-content: center;
 
     
+}
+body header .lugarbotao{
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+}
+body header .next{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   color: white;
+   font-size: 20px;
+   border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(76, 102, 102);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+body header .next:hover{
+    cursor: pointer;
+    background-color: rgb(35, 48, 48);
+    transition: 0.2S;
+}
+/*---------------------------------------botao previous--------------------------------------*/
+body header .lugarbotao2{
+    display: flex;
+    margin-top: 4%;
+    width: 500px;
+    justify-content: flex-start;
+}
+body header .previous{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   color: white;
+   font-size: 20px;
+   border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(76, 102, 102);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+body header .previous:hover{
+    cursor: pointer;
+    background-color: rgb(35, 48, 48);
+    transition: 0.2S;
 }
 body header  .fadeInTop{
     -webkit-animation: fadeInTop 1.0s both;
@@ -117,7 +169,7 @@ body {
     width: 80%;
     height: 100%;
     align-items: center;
-    background-color: white;
+    background-color: aliceblue;
 }
 body main{
     display: flex;
@@ -125,15 +177,19 @@ body main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    min-height: 700px;
+    width: 50%;
 }
 body main  .imagens {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    gap: 50px;
     font-size: 20px;
     
     text-align: left;
+}
+body main .imagens .porto{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 10%;
 }
