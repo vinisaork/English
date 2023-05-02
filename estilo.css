@@ -15,10 +15,18 @@ body header .titulodoido{
 
     
 }
+body header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 body header .lugarbotao{
     display: flex;
+    justify-content: center;
     width: 500px;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 body header .next{
     display: flex;
@@ -43,7 +51,7 @@ body header .next:hover{
 /*---------------------------------------botao previous--------------------------------------*/
 body header .lugarbotao2{
     display: flex;
-    margin-top: 4%;
+    
     width: 500px;
     justify-content: flex-start;
 }
@@ -167,7 +175,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 100%;
+    min-height: 500px;
     align-items: center;
     background-color: aliceblue;
 }
@@ -177,7 +185,7 @@ body main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 70%;
 }
 body main  .imagens {
     display: flex;
@@ -192,4 +200,32 @@ body main .imagens .porto{
     height: 300px;
     width: 400px;
     margin-bottom: 10%;
+}
+body main .composition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+body main .composition #submit{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(76, 102, 102);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+body main .composition #submit:hover{
+    background-color: rgb(27, 37, 37);
+    transition: 0.2s;
+}
+body main .composition #compositions{
+    height: 40px;
+    width: 300px
 }
