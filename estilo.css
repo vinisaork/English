@@ -181,7 +181,8 @@ body {
 body main{
     display: flex;
     margin-top: 6%;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5%;
     justify-content: center;
     align-items: center;
     width: 70%;
@@ -201,31 +202,23 @@ body main .imagens .porto{
     margin-bottom: 10%;
     border-radius: 10px;
 }
-body main .composition{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
-body main .composition #submit{
+body main .titles{
+    display: flex;
+    font-size:20px;
+    color: #fff;
+    background-color: rgb(21, 47, 80);
+    width: 300px;
     height: 40px;
-    width: 100px;
-    cursor: pointer;
-    background-color: rgb(76, 102, 102);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    border: none;
     border-radius: 10px;
-    color: white;
-    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    text-decoration: none;
 }
-body main .composition #submit:hover{
-    background-color: rgb(27, 37, 37);
+body main .titles:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(69, 129, 207);
     transition: 0.2s;
-}
-body main .composition #compositions{
-    height: 40px;
-    width: 300px
 }
