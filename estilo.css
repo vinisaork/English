@@ -174,7 +174,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    min-height: 500px;
+    min-height: 700px;
     align-items: center;
     background-color: rgb(216, 216, 216);
 }
@@ -185,7 +185,9 @@ body main{
     gap: 5%;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    align-content: center;
+    
+    width: 80%;
 }
 body main  .imagens {
     display: flex;
@@ -221,4 +223,8 @@ body main .titles:hover{
     text-decoration: none;
     background-color: rgb(69, 129, 207);
     transition: 0.2s;
+}
+body main .rock{
+    display: flex;
+    justify-content: center;
 }
